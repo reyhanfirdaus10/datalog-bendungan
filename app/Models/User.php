@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'description'];
+    protected $fillable = ["Timestamp", "TZ","PWR12V_State", "VNotch_2_mA"];
 }
